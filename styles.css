@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigCircle{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.smallCircle{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.letter{
+    font-size: 200px;
+    font-weight: 300;
+}
+
+.block{
+    background-color: black;
+    width: 2px;
+    height:50px;
+    position: absolute;
+    top:175px;
+    padding-left: 5px;
+    
+}
+
+.blockTwo{
+    left:465px;
+    top:420px;
+    transform: rotate(90deg);
+}
+
+.blockThree{
+    left:965px;
+    top:420px;
+    transform: rotate(90deg);
+}
+
+.blockFour{
+    left:710px;
+    top:675px;
+}
